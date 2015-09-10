@@ -28,7 +28,7 @@ Read /exe/openmic to learn how you can use your mic port to act as an analog dat
 * io.rb needs some love;
 * Tests are there but they are not enough;
 * Needs a somewhat fast computer, Linksys WRT54 can't run this.
-* YOU NEED TO IMPLEMENT RTOS.C IN TO COMPLY WITH YOUR RTOS REQUIREMENTS.
+* YOU NEED TO IMPLEMENT RTOS.C TO COMPLY WITH YOUR RTOS REQUIREMENTS.
 
 ### Specs
 
