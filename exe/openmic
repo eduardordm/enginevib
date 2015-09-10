@@ -1,0 +1,9 @@
+#!/bin/sh
+
+socat -d -d pty,raw,echo=0 pty,raw,echo=0 &
+
+sleep 1
+
+while true; do rec -n stat trim 0 .001 2>&1 | awk '/^Maximum amplitude/' | cut -d":" -f2 | sed 's/ //g' > /dev/ttys000; done 
+
+
