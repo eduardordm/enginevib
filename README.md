@@ -1,5 +1,8 @@
 # Aircraft Avionics Built in Ruby
 
+[![Build Status](https://travis-ci.org/eduardordm/enginevib.svg?branch=master)](https://travis-ci.org/eduardordm/enginevib)
+
+
 Foreword: This was built for a talk in RubyConf Brasil 2015, no changes will be made I guess.
 
 Displays the engine vibration levels as provided by a 0->10 sensor. Sensor must be calibrated.
