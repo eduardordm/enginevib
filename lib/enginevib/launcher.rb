@@ -1,3 +1,4 @@
+require 'optparse'
 module Enginevib
   # Defines the Launcher module which must be defined in Main.rb
   module Launcher
