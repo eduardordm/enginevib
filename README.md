@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/eduardordm/enginevib.svg?branch=master)](https://travis-ci.org/eduardordm/enginevib)
 
+![Image](https://pbs.twimg.com/media/COZX2ERW8AAvwqk.jpg:medium)
+
+[Watch a video of this gem running in real time in vxworks, IPad is used just as a terminal client](https://www.youtube.com/watch?v=QomYmohntKg)
 
 Foreword: This was built for a talk in RubyConf Brasil 2015, no changes will be made I guess.
 
@@ -11,7 +14,7 @@ This program can be used with other sensors like: Speedometer, accelerometer and
 I personally tested it with a pitot system and it worked perfectly with sensors calibrated
 to work with Lyncoming O235 engines.
 
-It can run in a RTOS, read rtos.c to know how you can hook this gem into your specific RTOS.
+It can run in a RTOS, **read rtos.c to know how you can hook this gem into your specific RTOS.**
 You might need to get rid of Rubygems depending on the OS you are planning to run this code.
 
 This gem was tested in OSX, PREEMPT_RT, Xenomai Linux and a proprietary OS it works as intended.
